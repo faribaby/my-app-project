@@ -43,12 +43,8 @@ export default function LandingPage() {
             data-aos="zoom-out"
             data-aos-delay="200"
           >
-            <h4 className=" d-lg-none img-head">Stainless CEO</h4>
-            <img
-              src="/7.jpg"
-              class="img-fluid shadow"
-              alt="imgd hhfj"
-            />
+            <h4 className=" d-lg-none img-head">Faree's Delight</h4>
+            <img src="/7.jpg" className="img-fluid" alt=""/>
           </div>
         </div>
       </div>

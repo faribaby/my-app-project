@@ -9,13 +9,13 @@ export default function Projects() {
       img: "/8.jpeg",
       title: "Where passion meets perfection.",
       desc:"We believe food should be a beautiful experience. Each meal is carefully prepared with passion, combining fresh ingredients to create dishes that satisfy both the eyes and the taste buds.",
-      price: "₦4,500",
+      price: "₦3,500",
     },
     {
       img: "/5.jpg",
       title: "Every dish holds a memory.",
       desc: "A traditional favourite — creamy arish paired with a rich, savory sauce that brings warmth and comfort to every bite.",
-      price: "₦8,000",
+      price: "₦6,000",
     },
     {
       img: "/9.jpeg",
@@ -27,7 +27,7 @@ export default function Projects() {
       img: "/12.png",
       title: "Cake, baked with love.",
       desc: "Our cakes are made from the finest ingredients and a touch of warmth — perfect for every celebration.",
-      price: "₦20,000",
+      price: "₦19,000",
     },
     {
       img: "/j.png",
@@ -45,13 +45,13 @@ export default function Projects() {
       img: "/cake straw.png",
       title: "The taste of togetherness.",
       desc:"We believe food should be a beautiful experience. Each meal is carefully prepared with passion, combining fresh ingredients to create dishes that satisfy both the eyes and the taste buds.",
-      price: "₦4,000",
+      price: "₦23,000",
     },
      {
       img: "/burger.jpeg",
       title: "The taste of togetherness.",
       desc: "Our snacks are perfect for quick bites and friendly moments — made to share and enjoy.",
-      price: "₦25,000",
+      price: "₦5,000",
     },
 
      {
@@ -78,11 +78,11 @@ export default function Projects() {
       <div className="row justify-content-center align-items-center text-light">
         {projects.map((project, i) => (
           <div key={i} className="col-lg-4">
-            <div className="card rounded-0 h-100 shadow my-4">
-              <img src={project.img} className="card-img" alt={project.title} />
+            <div className="card rounded-0 h-100 shadow my-4 rounded-3">
+              <img src={project.img} className="card-img-top " alt={project.title} />
               <div className="card-body">
-                <h5 className="fw-bold my-2">{project.title}</h5>
-                <p>{project.desc.substring(0, 90)}...</p>
+                <h5 className="fw-bold my-2 ">{project.title}</h5>
+                <p className="text-truncate">{project.desc.substring(0, 90)}...</p>
                 <p className="fw-bold text-dark">{project.price}</p>
                 <button
                   className="btn btn-warning btn-bm rounded-4"

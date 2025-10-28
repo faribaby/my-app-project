@@ -6,10 +6,10 @@ export default function Navbar() {
       <div className="container">
         <img
           src="/7.jpg"
-          className=" rounded-2"
+          className=" rounded-2 logo-bounce"
           width={30}
           height={30}
-          alt=""
+          alt="logo"
         />
         <a href="/" className="navbar-brand fw-bolder text-uppercase">
           Faree's Delight 
