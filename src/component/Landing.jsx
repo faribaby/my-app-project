@@ -15,12 +15,6 @@ export default function LandingPage() {
               "Faree's delight restaurant is where passion meets perfection, we create homemade goodness
               that warms hearts and satisfies taste buds. our goal is to deliver quality, flavor, and
               joy in every meal".
-              
-              
-
-
-              
-              
           
             </h2>
             <div data-aos="fade-up" data-aos-delay="600" className="d-flex flex-row gap-4">
