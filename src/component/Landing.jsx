@@ -13,9 +13,7 @@ export default function LandingPage() {
             <h1 data-aos="fade-up" className="text-warning">DELIGHT RESTUARANT.</h1>
             <h2 data-aos="fade-up" data-aos-delay="400">
               "Faree's delight restaurant is where passion meets perfection, we create homemade goodness
-              that warms hearts and satisfies taste buds. our goal is to deliver quality, flavor, and
-              joy in every meal".
-          
+              that warms hearts and satisfies taste buds.   
             </h2>
             <div data-aos="fade-up" data-aos-delay="600" className="d-flex flex-row gap-4">
               <div class="text-center text-lg-start mt-4">
@@ -38,14 +36,11 @@ export default function LandingPage() {
               </div>
             </div>
           </div>
-          <div
-            class="col-lg-6 hero-img order-lg-1 order-1 "
-            data-aos="zoom-out"
-            data-aos-delay="200"
-          >
-            <h4 className=" d-lg-none img-head">Faree's Delight</h4>
-            <img src="/7.jpg" className="img-fluid" alt=""/>
-          </div>
+         <div className="col-lg-6 hero-img order-lg-1 order-1" data-aos="zoom-out" data-aos-delay="200">
+  <h4 className="d-lg-none img-head">Faree's Delight</h4>
+  <img src="/7.jpg" className="img-fluid" alt="" />
+</div>
+
         </div>
       </div>
     </section>

@@ -66,6 +66,12 @@ export default function Projects() {
       desc: "Our snacks are perfect for quick bites and friendly moments — made to share and enjoy.",
       price: "₦1,500",
     },
+    {
+      img: "/11.jpg",
+      title: "Every dish holds a memory.",
+      desc: "A traditional favourite — creamy arish paired with a rich, savory sauce that brings warmth and comfort to every bite.",
+      price: "₦3,000",
+    },
   ];
 
   return (
